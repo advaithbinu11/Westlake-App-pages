@@ -35,7 +35,7 @@ public class Test {
             null, // ExpressionAttributeNames - not used in this example
             expressionAttributeValues);
 
-        System.out.println("Scan of " + tableName + " for items with a price less than 100.");
+        System.out.println("Scan of " + tableName + " for scores and players Advaith beat.");
         Iterator<Item> iterator = items.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next().toJSONPretty());
